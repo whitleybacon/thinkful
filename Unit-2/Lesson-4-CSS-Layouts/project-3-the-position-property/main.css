@@ -1,0 +1,77 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat center center fixed;  
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+nav {
+  position: fixed;
+  height: 60px;
+  background-color: grey;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+li::after {
+  content: " |";
+}
+
+/** your styles go here **/
+.catlogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+
+.navlinks {
+  position: relative;
+  margin-top: -40px;
+  left: 100px;
+}
+
+.catscream {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  top: -100px;
+}
+
+.saddog {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  right: -280px;
+  bottom: -160px;
+}
+
+.greenbox {
+  border: 10px dotted green;
+  width: 600px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
