@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Greg's List</title>
+  <meta charset="utf-8" name="description" content="Greg's List - Search for items">
+
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+  <body>
+    <div class="nav-bar">
+      <a class="page-title"><h1>Greg's List</h1></a>
+      <nav class="top-nav" role="navigation">
+          <a href="#" class="nav-link">Post</a>
+          <a href="#" class="nav-link">Account</a>
+      </nav>
+    </div>
+
+    <section class="search-section">
+      <form action="#">
+        <label for="search" class="search-label">Search Jobs</label>
+        <input type="text" id="search-field" class="search-field" placeholder="Search software jobs">
+        <input type="image" role="button" class="search-button" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="Search">
+      </form>
+    </section>
+    
+    <nav class="pages-nav">
+      <a class="pages-button-prev">prev</a>
+      <span class="pages-display">1 to 100 of 179</span>
+      <a class="pages-button-next">next</a>
+    </nav>
+    
+    <main>
+      <ul class="job-listings">
+        <li class="listing">
+          <span class="listing-date">June 22</span>
+          <a href="#" class="listing-title">Technical Project Manager</a>
+          <span class="listing-location">Midtown East</span>
+        </li>
+        <li class="listing">
+          <span class="listing-date">June 21</span>
+          <a href="#" class="listing-title">Frontend Developer</a>
+          <span class="listing-location">SoHo</span>
+        </li>
+        <li class="listing">
+          <span class="listing-date">June 20</span>
+          <a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+          <span class="listing-location">Flatiron</span>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
