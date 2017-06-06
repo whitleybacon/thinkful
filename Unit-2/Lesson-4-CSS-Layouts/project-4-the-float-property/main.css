@@ -1,0 +1,29 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.imgwidth {
+  width: 300px;
+}
+
+.left, .right {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
+
+/* your styles go here! */ 
